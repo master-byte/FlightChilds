@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Kidstarter.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Kidstarter.Api.Controllers.Admin.EventsAdminController.GetAllEvents(Kidstarter.Core.Models.Filters.EventFilter,Kidstarter.Api.Models.Pager)">
+            <summary>
+            Получить весь список кастингов.
+            </summary>
+        </member>
+        <member name="M:Kidstarter.Api.Controllers.Admin.EventsAdminController.GetFeedbackUserList(System.Guid,Kidstarter.Api.Models.Pager)">
+            <summary>
+            Список откликнувшихся родителей на кастинг.
+            </summary>
+        </member>
+        <member name="M:Kidstarter.Api.Controllers.Admin.EventsAdminController.Get(System.Guid)">
+            <summary>
+            Получить кастинг.
+            </summary>
+        </member>
+        <member name="M:Kidstarter.Api.Controllers.Admin.EventsAdminController.Create(Kidstarter.Api.Endpoints.Organizer.Events.Models.Create.CastingCreateModel)">
+            <summary>
+            Создать кастинг.
+            </summary>
+        </member>
+        <member name="M:Kidstarter.Api.Controllers.Admin.EventsAdminController.Update(System.Guid,Kidstarter.Api.Endpoints.Organizer.Events.Models.Update.CastingUpdateModel)">
+            <summary>
+            Изменить данные кастинга.
+            </summary>
+        </member>
+        <member name="M:Kidstarter.Api.Controllers.Admin.UsersAdminController.GetUserInfo(System.Guid)">
+            <summary>
+            Получить детальную информацию по юзеру.
+            </summary>
+        </member>
+        <member name="M:Kidstarter.Api.Controllers.EventController.GetAllEvents(Kidstarter.Api.Models.Pager)">
+            <summary>
+            Получить весь список кастингов.
+            </summary>
+        </member>
+        <member name="M:Kidstarter.Api.Controllers.EventController.Create(Kidstarter.Api.Endpoints.Organizer.Events.Models.Create.CastingCreateModel)">
+            <summary>
+            Создать кастинг.
+            </summary>
+        </member>
+        <member name="M:Kidstarter.Api.Controllers.EventController.OnCheckVisitor(System.Guid)">
+            <summary>
+            Отметить что пользователь просмотрел кастинг (или продюсер просмотрел откликнувшихся).
+            </summary>
+        </member>
+        <member name="M:Kidstarter.Api.Controllers.EventController.GetFeedbackUserList(System.Guid,Kidstarter.Api.Models.Pager)">
+            <summary>
+            Список откликнувшихся родителей на кастинг.
+            </summary>
+        </member>
+        <member name="M:Kidstarter.Api.Controllers.EventController.Get(System.Guid)">
+            <summary>
+            Получить кастинг.
+            </summary>
+        </member>
+        <member name="M:Kidstarter.Api.Controllers.EventController.Update(System.Guid,Kidstarter.Api.Endpoints.Organizer.Events.Models.Update.CastingUpdateModel)">
+            <summary>
+            Изменить данные кастинга.
+            </summary>
+        </member>
+        <member name="M:Kidstarter.Api.Controllers.EventController.Invite(Kidstarter.Api.Models.InviteModel)">
+            <summary>
+            Приглашение на кастинг (продюсер).
+            </summary>
+        </member>
+        <member name="M:Kidstarter.Api.Controllers.EventController.DeleteFeedback(System.Guid)">
+            <summary>
+            Отклонить приглашение на кастинг V2.
+            </summary>
+        </member>
+        <member name="M:Kidstarter.Api.Controllers.EventController.Search(Kidstarter.Core.Models.Filters.CastingFilter,Kidstarter.Api.Models.Pager)">
+            <summary>
+            Получить отфильтрованный список кастингов.
+            </summary>
+        </member>
+        <member name="M:Kidstarter.Api.Controllers.EventController.Subscribe(System.Guid)">
+            <summary>
+            Создать отклик на кастинг.
+            </summary>
+        </member>
+        <member name="M:Kidstarter.Api.Controllers.EventController.Unsubscribe(System.Guid)">
+            <summary>
+            Удалить отклик на кастинг.
+            </summary>
+        </member>
+        <member name="M:Kidstarter.Api.Controllers.EventController.GetInvitedList(Kidstarter.Api.Models.Pager)">
+            <summary>
+            Список кастингов с приглашениями для родителя.
+            </summary>
+        </member>
+        <member name="T:Kidstarter.Api.Models.View.Events.EventViewModel">
+            <summary>
+            Base class for different type of events including Casting.
+            </summary>
+        </member>
+        <member name="P:Kidstarter.Api.Models.View.PartnerViewModel.Entity">
+            <summary>
+            Юридическое лицо
+            </summary>
+        </member>
+        <member name="P:Kidstarter.Api.Models.View.PartnerViewModel.TaxIdNumber">
+            <summary>
+            ИНН
+            </summary>
+        </member>
+        <member name="P:Kidstarter.Api.Models.View.PartnerViewModel.PrimaryStateNumber">
+            <summary>
+            ОГРН
+            </summary>
+        </member>
+        <member name="P:Kidstarter.Api.Models.View.PartnerViewModel.LegalAddress">
+            <summary>
+            Юридический адрес
+            </summary>
+        </member>
+        <member name="P:Kidstarter.Api.Models.View.PartnerViewModel.AccountNumber">
+            <summary>
+            Расчетный счет
+            </summary>
+        </member>
+    </members>
+</doc>
